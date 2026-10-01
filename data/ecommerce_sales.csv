@@ -1,0 +1,181 @@
+order_id,order_date,customer_id,segment,region,category,product,quantity,unit_price,discount_pct,payment_method
+O0001,2025-01-08,C1001,VIP,East,Sports,"Dumbbells",2,42.50,5,Credit Card
+O0002,2025-01-15,C1002,Returning,North,Home,"Cushion Set",3,37.00,10,Debit Card
+O0003,2025-01-22,C1003,New,East,Fashion,"Hoodie",4,45.50,15,Cash
+O0004,2025-01-29,C1004,VIP,North,Beauty,"Moisturizer",1,40.00,0,UPI
+O0005,2025-02-05,C1005,Returning,East,Electronics,"Keyboard",2,77.50,5,Credit Card
+O0006,2025-02-12,C1006,New,North,Sports,"Gym Bag",3,65.00,10,Debit Card
+O0007,2025-02-19,C1007,VIP,East,Home,"Desk Lamp",4,59.50,15,Cash
+O0008,2025-02-26,C1008,Returning,North,Fashion,"Sneakers",1,68.00,0,UPI
+O0009,2025-03-05,C1009,New,East,Beauty,"Lipstick",2,22.00,5,Credit Card
+O0010,2025-03-12,C1010,VIP,North,Electronics,"Bluetooth Speaker",3,59.50,10,Debit Card
+O0011,2025-03-19,C1011,Returning,East,Sports,"Yoga Mat",4,47.00,15,Cash
+O0012,2025-03-26,C1012,New,North,Home,"Storage Box",1,41.50,0,UPI
+O0013,2025-04-02,C1013,VIP,East,Fashion,"Handbag",2,50.00,5,Credit Card
+O0014,2025-04-09,C1014,Returning,North,Beauty,"Sunscreen",3,44.50,10,Debit Card
+O0015,2025-04-16,C1015,New,East,Electronics,"Wireless Headphones",4,82.00,15,Cash
+O0016,2025-04-23,C1016,VIP,North,Sports,"Running Shoes",1,69.50,0,UPI
+O0017,2025-04-30,C1017,Returning,East,Home,"Coffee Maker",2,64.00,5,Credit Card
+O0018,2025-05-07,C1018,New,North,Fashion,"T-Shirt",3,32.00,10,Debit Card
+O0019,2025-05-14,C1019,VIP,East,Beauty,"Face Serum",4,26.50,15,Cash
+O0020,2025-05-21,C1020,Returning,North,Electronics,"Smart Watch",1,64.00,0,UPI
+O0021,2025-05-28,C1021,New,East,Sports,"Dumbbells",2,51.50,5,Credit Card
+O0022,2025-06-04,C1022,VIP,North,Home,"Cushion Set",3,46.00,10,Debit Card
+O0023,2025-06-11,C1023,Returning,East,Fashion,"Hoodie",4,54.50,15,Cash
+O0024,2025-06-18,C1024,New,North,Beauty,"Moisturizer",1,49.00,0,UPI
+O0025,2025-06-25,C1025,VIP,East,Electronics,"Keyboard",2,86.50,5,Credit Card
+O0026,2025-07-02,C1026,Returning,North,Sports,"Gym Bag",3,74.00,10,Debit Card
+O0027,2025-07-09,C1027,New,East,Home,"Desk Lamp",4,28.00,15,Cash
+O0028,2025-07-16,C1028,VIP,North,Fashion,"Sneakers",1,36.50,0,UPI
+O0029,2025-07-23,C1029,Returning,East,Beauty,"Lipstick",2,31.00,5,Credit Card
+O0030,2025-07-30,C1030,New,North,Electronics,"Bluetooth Speaker",3,68.50,10,Debit Card
+O0031,2025-08-06,C1031,VIP,East,Sports,"Yoga Mat",4,56.00,15,Cash
+O0032,2025-08-13,C1032,Returning,North,Home,"Storage Box",1,50.50,0,UPI
+O0033,2025-08-20,C1033,New,East,Fashion,"Handbag",2,59.00,5,Credit Card
+O0034,2025-08-27,C1034,VIP,North,Beauty,"Sunscreen",3,53.50,10,Debit Card
+O0035,2025-09-03,C1035,Returning,East,Electronics,"Wireless Headphones",4,91.00,15,Cash
+O0036,2025-09-10,C1036,New,North,Sports,"Running Shoes",1,38.00,0,UPI
+O0037,2025-09-17,C1037,VIP,East,Home,"Coffee Maker",2,32.50,5,Credit Card
+O0038,2025-09-24,C1038,Returning,North,Fashion,"T-Shirt",3,41.00,10,Debit Card
+O0039,2025-10-01,C1039,New,East,Beauty,"Face Serum",4,35.50,15,Cash
+O0040,2025-10-08,C1040,VIP,North,Electronics,"Smart Watch",1,73.00,0,UPI
+O0041,2025-10-15,C1041,Returning,East,Sports,"Dumbbells",2,60.50,5,Credit Card
+O0042,2025-10-22,C1042,New,North,Home,"Cushion Set",3,55.00,10,Debit Card
+O0043,2025-10-29,C1043,VIP,East,Fashion,"Hoodie",4,63.50,15,Cash
+O0044,2025-11-05,C1044,Returning,North,Beauty,"Moisturizer",1,58.00,0,UPI
+O0045,2025-11-12,C1045,New,East,Electronics,"Keyboard",2,55.00,5,Credit Card
+O0046,2025-11-19,C1046,VIP,North,Sports,"Gym Bag",3,42.50,10,Debit Card
+O0047,2025-11-26,C1047,Returning,East,Home,"Desk Lamp",4,37.00,15,Cash
+O0048,2025-12-03,C1048,New,North,Fashion,"Sneakers",1,45.50,0,UPI
+O0049,2025-12-10,C1049,VIP,East,Beauty,"Lipstick",2,40.00,5,Credit Card
+O0050,2025-12-17,C1050,Returning,North,Electronics,"Bluetooth Speaker",3,77.50,10,Debit Card
+O0051,2025-12-24,C1051,New,East,Sports,"Yoga Mat",4,65.00,15,Cash
+O0052,2025-12-31,C1052,VIP,North,Home,"Storage Box",1,59.50,0,UPI
+O0053,2025-01-07,C1053,Returning,East,Fashion,"Handbag",2,68.00,5,Credit Card
+O0054,2025-01-14,C1054,New,North,Beauty,"Sunscreen",3,22.00,10,Debit Card
+O0055,2025-01-21,C1055,VIP,East,Electronics,"Wireless Headphones",4,59.50,15,Cash
+O0056,2025-01-28,C1056,Returning,North,Sports,"Running Shoes",1,47.00,0,UPI
+O0057,2025-02-04,C1057,New,East,Home,"Coffee Maker",2,41.50,5,Credit Card
+O0058,2025-02-11,C1058,VIP,North,Fashion,"T-Shirt",3,50.00,10,Debit Card
+O0059,2025-02-18,C1059,Returning,East,Beauty,"Face Serum",4,44.50,15,Cash
+O0060,2025-02-25,C1060,New,North,Electronics,"Smart Watch",1,82.00,0,UPI
+O0061,2025-03-04,C1061,VIP,East,Sports,"Dumbbells",2,69.50,5,Credit Card
+O0062,2025-03-11,C1062,Returning,North,Home,"Cushion Set",3,64.00,10,Debit Card
+O0063,2025-03-18,C1063,New,East,Fashion,"Hoodie",4,32.00,15,Cash
+O0064,2025-03-25,C1064,VIP,North,Beauty,"Moisturizer",1,26.50,0,UPI
+O0065,2025-04-01,C1065,Returning,East,Electronics,"Keyboard",2,64.00,5,Credit Card
+O0066,2025-04-08,C1066,New,North,Sports,"Gym Bag",3,51.50,10,Debit Card
+O0067,2025-04-15,C1067,VIP,East,Home,"Desk Lamp",4,46.00,15,Cash
+O0068,2025-04-22,C1068,Returning,North,Fashion,"Sneakers",1,54.50,0,UPI
+O0069,2025-04-29,C1069,New,East,Beauty,"Lipstick",2,49.00,5,Credit Card
+O0070,2025-05-06,C1000,VIP,North,Electronics,"Bluetooth Speaker",3,86.50,10,Debit Card
+O0071,2025-05-13,C1001,Returning,East,Sports,"Yoga Mat",4,74.00,15,Cash
+O0072,2025-05-20,C1002,New,North,Home,"Storage Box",1,28.00,0,UPI
+O0073,2025-05-27,C1003,VIP,East,Fashion,"Handbag",2,36.50,5,Credit Card
+O0074,2025-06-03,C1004,Returning,North,Beauty,"Sunscreen",3,31.00,10,Debit Card
+O0075,2025-06-10,C1005,New,East,Electronics,"Wireless Headphones",4,68.50,15,Cash
+O0076,2025-06-17,C1006,VIP,North,Sports,"Running Shoes",1,56.00,0,UPI
+O0077,2025-06-24,C1007,Returning,East,Home,"Coffee Maker",2,50.50,5,Credit Card
+O0078,2025-07-01,C1008,New,North,Fashion,"T-Shirt",3,59.00,10,Debit Card
+O0079,2025-07-08,C1009,VIP,East,Beauty,"Face Serum",4,53.50,15,Cash
+O0080,2025-07-15,C1010,Returning,North,Electronics,"Smart Watch",1,91.00,0,UPI
+O0081,2025-07-22,C1011,New,East,Sports,"Dumbbells",2,38.00,5,Credit Card
+O0082,2025-07-29,C1012,VIP,North,Home,"Cushion Set",3,32.50,10,Debit Card
+O0083,2025-08-05,C1013,Returning,East,Fashion,"Hoodie",4,41.00,15,Cash
+O0084,2025-08-12,C1014,New,North,Beauty,"Moisturizer",1,35.50,0,UPI
+O0085,2025-08-19,C1015,VIP,East,Electronics,"Keyboard",2,73.00,5,Credit Card
+O0086,2025-08-26,C1016,Returning,North,Sports,"Gym Bag",3,60.50,10,Debit Card
+O0087,2025-09-02,C1017,New,East,Home,"Desk Lamp",4,55.00,15,Cash
+O0088,2025-09-09,C1018,VIP,North,Fashion,"Sneakers",1,63.50,0,UPI
+O0089,2025-09-16,C1019,Returning,East,Beauty,"Lipstick",2,58.00,5,Credit Card
+O0090,2025-09-23,C1020,New,North,Electronics,"Bluetooth Speaker",3,55.00,10,Debit Card
+O0091,2025-09-30,C1021,VIP,East,Sports,"Yoga Mat",4,42.50,15,Cash
+O0092,2025-10-07,C1022,Returning,North,Home,"Storage Box",1,37.00,0,UPI
+O0093,2025-10-14,C1023,New,East,Fashion,"Handbag",2,45.50,5,Credit Card
+O0094,2025-10-21,C1024,VIP,North,Beauty,"Sunscreen",3,40.00,10,Debit Card
+O0095,2025-10-28,C1025,Returning,East,Electronics,"Wireless Headphones",4,77.50,15,Cash
+O0096,2025-11-04,C1026,New,North,Sports,"Running Shoes",1,65.00,0,UPI
+O0097,2025-11-11,C1027,VIP,East,Home,"Coffee Maker",2,59.50,5,Credit Card
+O0098,2025-11-18,C1028,Returning,North,Fashion,"T-Shirt",3,68.00,10,Debit Card
+O0099,2025-11-25,C1029,New,East,Beauty,"Face Serum",4,22.00,15,Cash
+O0100,2025-12-02,C1030,VIP,North,Electronics,"Smart Watch",1,59.50,0,UPI
+O0101,2025-12-09,C1031,Returning,East,Sports,"Dumbbells",2,47.00,5,Credit Card
+O0102,2025-12-16,C1032,New,North,Home,"Cushion Set",3,41.50,10,Debit Card
+O0103,2025-12-23,C1033,VIP,East,Fashion,"Hoodie",4,50.00,15,Cash
+O0104,2025-12-30,C1034,Returning,North,Beauty,"Moisturizer",1,44.50,0,UPI
+O0105,2025-01-06,C1035,New,East,Electronics,"Keyboard",2,82.00,5,Credit Card
+O0106,2025-01-13,C1036,VIP,North,Sports,"Gym Bag",3,69.50,10,Debit Card
+O0107,2025-01-20,C1037,Returning,East,Home,"Desk Lamp",4,64.00,15,Cash
+O0108,2025-01-27,C1038,New,North,Fashion,"Sneakers",1,32.00,0,UPI
+O0109,2025-02-03,C1039,VIP,East,Beauty,"Lipstick",2,26.50,5,Credit Card
+O0110,2025-02-10,C1040,Returning,North,Electronics,"Bluetooth Speaker",3,64.00,10,Debit Card
+O0111,2025-02-17,C1041,New,East,Sports,"Yoga Mat",4,51.50,15,Cash
+O0112,2025-02-24,C1042,VIP,North,Home,"Storage Box",1,46.00,0,UPI
+O0113,2025-03-03,C1043,Returning,East,Fashion,"Handbag",2,54.50,5,Credit Card
+O0114,2025-03-10,C1044,New,North,Beauty,"Sunscreen",3,49.00,10,Debit Card
+O0115,2025-03-17,C1045,VIP,East,Electronics,"Wireless Headphones",4,86.50,15,Cash
+O0116,2025-03-24,C1046,Returning,North,Sports,"Running Shoes",1,74.00,0,UPI
+O0117,2025-03-31,C1047,New,East,Home,"Coffee Maker",2,28.00,5,Credit Card
+O0118,2025-04-07,C1048,VIP,North,Fashion,"T-Shirt",3,36.50,10,Debit Card
+O0119,2025-04-14,C1049,Returning,East,Beauty,"Face Serum",4,31.00,15,Cash
+O0120,2025-04-21,C1050,New,North,Electronics,"Smart Watch",1,68.50,0,UPI
+O0121,2025-04-28,C1051,VIP,East,Sports,"Dumbbells",2,56.00,5,Credit Card
+O0122,2025-05-05,C1052,Returning,North,Home,"Cushion Set",3,50.50,10,Debit Card
+O0123,2025-05-12,C1053,New,East,Fashion,"Hoodie",4,59.00,15,Cash
+O0124,2025-05-19,C1054,VIP,North,Beauty,"Moisturizer",1,53.50,0,UPI
+O0125,2025-05-26,C1055,Returning,East,Electronics,"Keyboard",2,91.00,5,Credit Card
+O0126,2025-06-02,C1056,New,North,Sports,"Gym Bag",3,38.00,10,Debit Card
+O0127,2025-06-09,C1057,VIP,East,Home,"Desk Lamp",4,32.50,15,Cash
+O0128,2025-06-16,C1058,Returning,North,Fashion,"Sneakers",1,41.00,0,UPI
+O0129,2025-06-23,C1059,New,East,Beauty,"Lipstick",2,35.50,5,Credit Card
+O0130,2025-06-30,C1060,VIP,North,Electronics,"Bluetooth Speaker",3,73.00,10,Debit Card
+O0131,2025-07-07,C1061,Returning,East,Sports,"Yoga Mat",4,60.50,15,Cash
+O0132,2025-07-14,C1062,New,North,Home,"Storage Box",1,55.00,0,UPI
+O0133,2025-07-21,C1063,VIP,East,Fashion,"Handbag",2,63.50,5,Credit Card
+O0134,2025-07-28,C1064,Returning,North,Beauty,"Sunscreen",3,58.00,10,Debit Card
+O0135,2025-08-04,C1065,New,East,Electronics,"Wireless Headphones",4,55.00,15,Cash
+O0136,2025-08-11,C1066,VIP,North,Sports,"Running Shoes",1,42.50,0,UPI
+O0137,2025-08-18,C1067,Returning,East,Home,"Coffee Maker",2,37.00,5,Credit Card
+O0138,2025-08-25,C1068,New,North,Fashion,"T-Shirt",3,45.50,10,Debit Card
+O0139,2025-09-01,C1069,VIP,East,Beauty,"Face Serum",4,40.00,15,Cash
+O0140,2025-09-08,C1000,Returning,North,Electronics,"Smart Watch",1,77.50,0,UPI
+O0141,2025-09-15,C1001,New,East,Sports,"Dumbbells",2,65.00,5,Credit Card
+O0142,2025-09-22,C1002,VIP,North,Home,"Cushion Set",3,59.50,10,Debit Card
+O0143,2025-09-29,C1003,Returning,East,Fashion,"Hoodie",4,68.00,15,Cash
+O0144,2025-10-06,C1004,New,North,Beauty,"Moisturizer",1,22.00,0,UPI
+O0145,2025-10-13,C1005,VIP,East,Electronics,"Keyboard",2,59.50,5,Credit Card
+O0146,2025-10-20,C1006,Returning,North,Sports,"Gym Bag",3,47.00,10,Debit Card
+O0147,2025-10-27,C1007,New,East,Home,"Desk Lamp",4,41.50,15,Cash
+O0148,2025-11-03,C1008,VIP,North,Fashion,"Sneakers",1,50.00,0,UPI
+O0149,2025-11-10,C1009,Returning,East,Beauty,"Lipstick",2,44.50,5,Credit Card
+O0150,2025-11-17,C1010,New,North,Electronics,"Bluetooth Speaker",3,82.00,10,Debit Card
+O0151,2025-11-24,C1011,VIP,East,Sports,"Yoga Mat",4,69.50,15,Cash
+O0152,2025-12-01,C1012,Returning,North,Home,"Storage Box",1,64.00,0,UPI
+O0153,2025-12-08,C1013,New,East,Fashion,"Handbag",2,32.00,5,Credit Card
+O0154,2025-12-15,C1014,VIP,North,Beauty,"Sunscreen",3,26.50,10,Debit Card
+O0155,2025-12-22,C1015,Returning,East,Electronics,"Wireless Headphones",4,64.00,15,Cash
+O0156,2025-12-29,C1016,New,North,Sports,"Running Shoes",1,51.50,0,UPI
+O0157,2025-01-05,C1017,VIP,East,Home,"Coffee Maker",2,46.00,5,Credit Card
+O0158,2025-01-12,C1018,Returning,North,Fashion,"T-Shirt",3,54.50,10,Debit Card
+O0159,2025-01-19,C1019,New,East,Beauty,"Face Serum",4,49.00,15,Cash
+O0160,2025-01-26,C1020,VIP,North,Electronics,"Smart Watch",1,86.50,0,UPI
+O0161,2025-02-02,C1021,Returning,East,Sports,"Dumbbells",2,74.00,5,Credit Card
+O0162,2025-02-09,C1022,New,North,Home,"Cushion Set",3,28.00,10,Debit Card
+O0163,2025-02-16,C1023,VIP,East,Fashion,"Hoodie",4,36.50,15,Cash
+O0164,2025-02-23,C1024,Returning,North,Beauty,"Moisturizer",1,31.00,0,UPI
+O0165,2025-03-02,C1025,New,East,Electronics,"Keyboard",2,68.50,5,Credit Card
+O0166,2025-03-09,C1026,VIP,North,Sports,"Gym Bag",3,56.00,10,Debit Card
+O0167,2025-03-16,C1027,Returning,East,Home,"Desk Lamp",4,50.50,15,Cash
+O0168,2025-03-23,C1028,New,North,Fashion,"Sneakers",1,59.00,0,UPI
+O0169,2025-03-30,C1029,VIP,East,Beauty,"Lipstick",2,53.50,5,Credit Card
+O0170,2025-04-06,C1030,Returning,North,Electronics,"Bluetooth Speaker",3,91.00,10,Debit Card
+O0171,2025-04-13,C1031,New,East,Sports,"Yoga Mat",4,38.00,15,Cash
+O0172,2025-04-20,C1032,VIP,North,Home,"Storage Box",1,32.50,0,UPI
+O0173,2025-04-27,C1033,Returning,East,Fashion,"Handbag",2,41.00,5,Credit Card
+O0174,2025-05-04,C1034,New,North,Beauty,"Sunscreen",3,35.50,10,Debit Card
+O0175,2025-05-11,C1035,VIP,East,Electronics,"Wireless Headphones",4,73.00,15,Cash
+O0176,2025-05-18,C1036,Returning,North,Sports,"Running Shoes",1,60.50,0,UPI
+O0177,2025-05-25,C1037,New,East,Home,"Coffee Maker",2,55.00,5,Credit Card
+O0178,2025-06-01,C1038,VIP,North,Fashion,"T-Shirt",3,63.50,10,Debit Card
+O0179,2025-06-08,C1039,Returning,East,Beauty,"Face Serum",4,58.00,15,Cash
+O0180,2025-06-15,C1040,New,North,Electronics,"Smart Watch",1,55.00,0,UPI
