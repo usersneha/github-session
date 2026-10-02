@@ -3,38 +3,155 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#241225">
-<meta name="mobile-web-app-capable" content="yes">
-<title>The Bettuu Quest</title>
+<meta name="theme-color" content="#120a13">
+<title>The Bettuu Quest 💗</title>
 <style>
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+*{box-sizing:border-box}
 html,body{margin:0;min-height:100%;background:#100912;color:#fff;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-body{overflow-x:hidden}.app{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px;background:radial-gradient(circle at 15% 10%,#682d52 0,transparent 34%),radial-gradient(circle at 90% 90%,#3b245d 0,transparent 36%),#100912}
-.card{width:min(720px,100%);padding:24px;border:1px solid #ffffff1c;border-radius:28px;background:#ffffff0b;box-shadow:0 24px 90px #0009;backdrop-filter:blur(14px)}
-.center{text-align:center}.eyebrow{font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:#ff9fc4}.title{font-size:clamp(2.6rem,12vw,5.8rem);line-height:.84;letter-spacing:-4px;margin:12px 0}.pink{color:#ff6fa7}.sub{color:#d8c7d4;line-height:1.7}.btn,.choice{width:100%;border-radius:16px;padding:15px 16px;margin:7px 0;font-weight:800;font-size:1rem;touch-action:manipulation}.btn{border:0;background:#ff5b9c;color:#fff;box-shadow:0 12px 30px #ff5b9c2e}.btn.alt{background:#ffffff0b;border:1px solid #ffffff22}.choice{border:1px solid #ffffff20;background:#ffffff09;color:#fff;text-align:left}.choice:active,.btn:active{transform:scale(.98)}.hud{display:flex;justify-content:space-between;gap:7px;margin-bottom:18px}.pill{padding:8px 11px;background:#ffffff10;border:1px solid #ffffff12;border-radius:999px;font-size:.8rem}.screen h2{font-size:clamp(1.7rem,7vw,3rem);margin:6px 0}.note{font-size:.9rem;color:#bfaebb}.input{width:100%;padding:15px;border-radius:15px;border:1px solid #ffffff22;background:#09060d;color:#fff;text-align:center;font-size:1.2rem;letter-spacing:4px;outline:0}.feedback{min-height:30px;font-weight:700;margin:8px}.good{color:#7ff0bd}.bad{color:#ff88a9}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:15px}.tile{aspect-ratio:1;border:1px solid #ffffff20;border-radius:15px;background:#ffffff09;color:#fff;font-size:1.7rem}.tile.open,.tile.matched{background:#ff5b9c22}.tile.matched{border-color:#6be3ad}.meter{height:10px;background:#ffffff10;border-radius:99px;overflow:hidden;margin:18px 0}.meter i{display:block;height:100%;width:0;background:#ff5b9c;transition:.35s}.big{font-size:4.2rem}.hidden{display:none!important}.spark{position:fixed;pointer-events:none;font-size:24px;animation:rise 1.2s forwards;z-index:50}@keyframes rise{to{transform:translateY(-130px) rotate(25deg);opacity:0}}
+body{overflow-x:hidden}
+.app{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(circle at 12% 8%,#6a2b52 0,transparent 34%),radial-gradient(circle at 92% 92%,#3d2862 0,transparent 38%),#100912}
+.card{width:min(720px,100%);padding:28px 24px;border:1px solid #ffffff22;border-radius:28px;background:#ffffff0c;box-shadow:0 24px 90px #0009;backdrop-filter:blur(14px)}
+.center{text-align:center}.eyebrow{font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:#ff9fc4}
+.title{font-size:clamp(2.8rem,12vw,5.8rem);line-height:.86;letter-spacing:-4px;margin:14px 0}.pink{color:#ff6fa7}
+.sub{color:#d8c7d4;line-height:1.65}.big{font-size:4rem}
+.btn,.choice{width:100%;border-radius:16px;padding:15px 16px;margin:7px 0;font-weight:800;font-size:1rem;touch-action:manipulation}
+.btn{border:0;background:#ff5b9c;color:#fff;box-shadow:0 12px 30px #ff5b9c33;cursor:pointer}
+.btn.alt{background:#ffffff0b;border:1px solid #ffffff22}
+.choice{border:1px solid #ffffff20;background:#ffffff09;color:#fff;text-align:left;cursor:pointer}
+.choice:active,.btn:active{transform:scale(.98)}
+.hud{display:flex;justify-content:space-between;gap:7px;margin-bottom:20px}.pill{padding:8px 11px;background:#ffffff10;border:1px solid #ffffff14;border-radius:999px;font-size:.8rem}
+.screen h2{font-size:clamp(1.7rem,7vw,3rem);margin:6px 0}
+.note{font-size:.9rem;color:#bfaebb}.input{width:100%;padding:15px;border-radius:15px;border:1px solid #ffffff22;background:#09060d;color:#fff;text-align:center;font-size:1.2rem;letter-spacing:4px;outline:0}
+.feedback{min-height:30px;font-weight:700;margin:8px}.good{color:#7ff0bd}.bad{color:#ff88a9}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:15px}.tile{aspect-ratio:1;border:1px solid #ffffff20;border-radius:15px;background:#ffffff09;color:#fff;font-size:1.7rem;cursor:pointer}.tile.open,.tile.matched{background:#ff5b9c22}.tile.matched{border-color:#6be3ad}
+.spark{position:fixed;pointer-events:none;font-size:24px;animation:rise 1.2s forwards;z-index:50}@keyframes rise{to{transform:translateY(-130px) rotate(25deg);opacity:0}}
 </style>
 </head>
 <body>
-<div class="app"><main id="app" class="card"></main></div>
+<div class="app"><main id="app" class="card">
+  <div class="center">
+    <div class="eyebrow">A tiny game from Baccha</div>
+    <div class="big">🎮</div>
+    <div class="title">THE<br><span class="pink">BETTUU</span><br>QUEST</div>
+    <p class="sub">Ankit, your Baccha hid a little surprise behind four missions. Solve the memories, beat the puzzles and unlock the final message.</p>
+    <p>🧠 memories · 💗 love · 🔐 clues · 🎁 surprise</p>
+    <button id="startBtn" class="btn">START QUEST</button>
+    <p class="note">Made especially for Bettuuuu. ❤️</p>
+  </div>
+</main></div>
 <script>
-const A=document.getElementById('app');
-let score=0,lives=3,level=0;
-const data={date:'21022023',nick:'Baccha'};
-function hud(){return '<div class="hud"><span class="pill">⭐ '+score+'</span><span class="pill">❤️ '+lives+'</span><span class="pill">LEVEL '+level+'/4</span></div>'}
-function home(){A.innerHTML='<div class="center"><div class="eyebrow">A tiny game from Baccha</div><div class="big">🎮</div><div class="title">THE<br><span class="pink">BETTUU</span><br>QUEST</div><p class="sub">Ankit, your Baccha hid a little surprise behind four missions. Solve the memories, beat the puzzles and unlock the final message.</p><p>🧠 memories · 💗 love · 🔐 clues · 🎁 surprise</p><button class="btn" onclick="start()">START QUEST</button><p class="note">Designed for Android touch screens.</p></div>'}
-function start(){score=0;lives=3;level=1;render()}
-function fail(){lives--;if(lives<=0){A.innerHTML='<div class="center"><div class="big">😭</div><h2>Game over, Bettuu.</h2><p class="sub">Your Baccha says you get one more chance.</p><button class="btn" onclick="start()">START AGAIN</button></div>';return}A.querySelector('.feedback').textContent='Nope 😭 Try again, Bettuuuu.';A.querySelector('.feedback').className='feedback bad';}
-function pass(){score+=100;level++;spark();setTimeout(render,350)}
-function render(){if(level===1)m1();else if(level===2)m2();else if(level===3)m3();else if(level===4)m4();else finish()}
-function m1(){A.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 1 · MEMORY LOCK</div><h2>When did your story begin?</h2><p class="sub">Enter the date you and Sneha started dating.</p><input id="ans" class="input" inputmode="numeric" maxlength="8" placeholder="DDMMYYYY"><div id="fb" class="feedback"></div><button class="btn" onclick="checkDate()">UNLOCK 🔓</button></section>'}
-function checkDate(){if(document.getElementById('ans').value.replace(/\D/g,'')===data.date)pass();else fail()}
-function m2(){A.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 2 · NICKNAME LOCK</div><h2>What does Ankit call Sneha?</h2><p class="sub">Choose the password your Baccha answers to.</p><div id="choices"></div><div class="feedback"></div></section>';[['Princess',0],['Baccha',1],['Madam',0],['Boss Lady',0]].forEach(x=>{let b=document.createElement('button');b.className='choice';b.textContent=x[0];b.onclick=()=>x[1]?pass():fail();document.getElementById('choices').appendChild(b)})}
-function m3(){A.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 3 · MEMORY MATCH</div><h2>Match the things Baccha loves.</h2><p class="sub">Find all four pairs.</p><div class="grid" id="grid"></div><div class="feedback"></div></section>';let vals=['👀','💋','😊','🌷','👀','💋','😊','🌷'].sort(()=>Math.random()-.5),first=null,lock=false,matched=0;vals.forEach(v=>{let b=document.createElement('button');b.className='tile';b.textContent='?';b.onclick=()=>{if(lock||b.classList.contains('matched'))return;b.textContent=v;b.classList.add('open');if(!first){first=b;return}lock=true;if(first.textContent===v){first.classList.add('matched');b.classList.add('matched');matched++;score+=25;first=null;lock=false;if(matched===4)pass()}else setTimeout(()=>{first.textContent='?';b.textContent='?';first.classList.remove('open');b.classList.remove('open');first=null;lock=false},550)};document.getElementById('grid').appendChild(b)})}
-function m4(){A.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 4 · FINAL TRUTH</div><h2>Which one is actually true?</h2><p class="sub">One answer unlocks the final message.</p><div id="choices"></div><div class="feedback"></div></section>';['Sneha is more romantic than Ankit.','Sneha is proud of Ankit for being himself and building himself.','Sneha does not like Ankit’s smile.','Ankit is called “Baccha” by Sneha.'].forEach((x,i)=>{let b=document.createElement('button');b.className='choice';b.textContent=x;b.onclick=()=>i===1?pass():fail();document.getElementById('choices').appendChild(b)})}
-function finish(){A.innerHTML='<div class="center"><div class="big">🏆💗</div><div class="eyebrow">QUEST COMPLETE</div><h1 class="title" style="font-size:clamp(2.4rem,10vw,4.6rem)">YOU DID IT,<br><span class="pink">BETTUUUU.</span></h1><p class="sub">Score: <b>'+score+'</b>. You solved every mission.</p><button class="btn" onclick="prize()">UNLOCK YOUR PRIZE 🎁</button></div>'}
-function prize(){A.innerHTML='<div class="center"><div class="eyebrow">A MESSAGE FROM YOUR BACCHA</div><div class="big">🥹❤️</div><h2>Hi my Puttuu Babyyy.</h2><p class="sub">I made you go through four whole missions just to tell you something simple.</p><p class="sub"><b>I am so proud of you.</b> Proud of you for being you, for building yourself, and for becoming the person you want to be.</p><p class="sub">I love your passion, your eyes, your smile, your kisses, and the way you love me. And yes... you are soooo much more romantic than me. 😂❤️</p><p class="sub">Thank you for being my Bettuu since <b>21 February 2023</b>.</p><p style="font-size:1.35rem"><b>I love youuuuu. ❤️</b></p><button class="btn" onclick="spark();setTimeout(()=>alert('Now come give your Baccha her kiss. 💋'),250)">COLLECT YOUR KISS 💋</button></div>'}
-function spark(){for(let i=0;i<18;i++){let e=document.createElement('span');e.className='spark';e.textContent=['❤️','💗','✨','💋'][Math.floor(Math.random()*4)];e.style.left=Math.random()*100+'vw';e.style.top=(60+Math.random()*35)+'vh';document.body.appendChild(e);setTimeout(()=>e.remove(),1200)}}
-home();
+(function(){
+  var app=document.getElementById("app");
+  var score=0,lives=3,level=0;
+  var dateAnswer="21022023";
+
+  function hud(){
+    return '<div class="hud"><span class="pill">⭐ '+score+'</span><span class="pill">❤️ '+lives+'</span><span class="pill">LEVEL '+level+'/4</span></div>';
+  }
+  function spark(){
+    var icons=["❤️","💗","✨","💋"];
+    for(var i=0;i<18;i++){
+      var e=document.createElement("span");
+      e.className="spark";
+      e.textContent=icons[Math.floor(Math.random()*icons.length)];
+      e.style.left=(Math.random()*100)+"vw";
+      e.style.top=(60+Math.random()*35)+"vh";
+      document.body.appendChild(e);
+      setTimeout(function(x){return function(){x.remove();};}(e),1200);
+    }
+  }
+  function start(){
+    score=0;lives=3;level=1;render();
+  }
+  function fail(){
+    lives--;
+    var fb=app.querySelector(".feedback");
+    if(lives<=0){
+      app.innerHTML='<div class="center"><div class="big">😭</div><h2>Game over, Bettuu.</h2><p class="sub">Your Baccha says you get one more chance.</p><button id="again" class="btn">START AGAIN</button></div>';
+      document.getElementById("again").addEventListener("click",start);
+      return;
+    }
+    if(fb){fb.textContent="Nope 😭 Try again, Bettuuuu.";fb.className="feedback bad";}
+    updateHud();
+  }
+  function updateHud(){
+    var h=app.querySelector(".hud");
+    if(h) h.innerHTML='<span class="pill">⭐ '+score+'</span><span class="pill">❤️ '+lives+'</span><span class="pill">LEVEL '+level+'/4</span>';
+  }
+  function pass(){
+    score+=100;level++;spark();
+    setTimeout(render,350);
+  }
+  function render(){
+    if(level===1)mission1();
+    else if(level===2)mission2();
+    else if(level===3)mission3();
+    else if(level===4)mission4();
+    else finish();
+  }
+  function mission1(){
+    app.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 1 · MEMORY LOCK</div><h2>When did your story begin?</h2><p class="sub">Enter the date you and Sneha started dating.</p><input id="answer" class="input" inputmode="numeric" maxlength="8" placeholder="DDMMYYYY"><div class="feedback"></div><button id="unlock" class="btn">UNLOCK 🔓</button></section>';
+    document.getElementById("unlock").addEventListener("click",function(){
+      var v=document.getElementById("answer").value.replace(/\D/g,"");
+      if(v===dateAnswer) pass(); else fail();
+    });
+  }
+  function mission2(){
+    app.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 2 · NICKNAME LOCK</div><h2>What does Ankit call Sneha?</h2><p class="sub">Choose the password your Baccha answers to.</p><div id="choices"></div><div class="feedback"></div></section>';
+    var choices=[["Princess",false],["Baccha",true],["Madam",false],["Boss Lady",false]];
+    choices.forEach(function(item){
+      var b=document.createElement("button");b.className="choice";b.textContent=item[0];
+      b.addEventListener("click",function(){if(item[1])pass();else fail();});
+      document.getElementById("choices").appendChild(b);
+    });
+  }
+  function mission3(){
+    app.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 3 · MEMORY MATCH</div><h2>Match the things Baccha loves.</h2><p class="sub">Find all four pairs.</p><div class="grid" id="grid"></div><div class="feedback"></div></section>';
+    var vals=["👀","💋","😊","🌷","👀","💋","😊","🌷"];
+    vals.sort(function(){return Math.random()-0.5;});
+    var first=null,lock=false,matched=0;
+    vals.forEach(function(v){
+      var b=document.createElement("button");b.className="tile";b.textContent="?";
+      b.addEventListener("click",function(){
+        if(lock||b.classList.contains("matched")||b===first)return;
+        b.textContent=v;b.classList.add("open");
+        if(!first){first=b;return;}
+        lock=true;
+        if(first.textContent===v){
+          first.classList.add("matched");b.classList.add("matched");matched++;score+=25;first=null;lock=false;
+          if(matched===4)pass();
+        }else{
+          var old=first;
+          setTimeout(function(){old.textContent="?";b.textContent="?";old.classList.remove("open");b.classList.remove("open");first=null;lock=false;},550);
+        }
+      });
+      document.getElementById("grid").appendChild(b);
+    });
+  }
+  function mission4(){
+    app.innerHTML=hud()+'<section class="screen"><div class="eyebrow">MISSION 4 · FINAL TRUTH</div><h2>Which one is actually true?</h2><p class="sub">One answer unlocks the final message.</p><div id="choices"></div><div class="feedback"></div></section>';
+    var answers=[
+      ["Sneha is more romantic than Ankit.",false],
+      ["Sneha is proud of Ankit for being himself and building himself.",true],
+      ["Sneha does not like Ankit’s smile.",false],
+      ["Ankit is called “Baccha” by Sneha.",false]
+    ];
+    answers.forEach(function(item){
+      var b=document.createElement("button");b.className="choice";b.textContent=item[0];
+      b.addEventListener("click",function(){if(item[1])pass();else fail();});
+      document.getElementById("choices").appendChild(b);
+    });
+  }
+  function finish(){
+    app.innerHTML='<div class="center"><div class="big">🏆💗</div><div class="eyebrow">QUEST COMPLETE</div><h1 class="title" style="font-size:clamp(2.4rem,10vw,4.6rem)">YOU DID IT,<br><span class="pink">BETTUUUU.</span></h1><p class="sub">Score: <b>'+score+'</b>. You solved every mission.</p><button id="prize" class="btn">UNLOCK YOUR PRIZE 🎁</button></div>';
+    document.getElementById("prize").addEventListener("click",prize);
+  }
+  function prize(){
+    app.innerHTML='<div class="center"><div class="eyebrow">A MESSAGE FROM YOUR BACCHA</div><div class="big">🥹❤️</div><h2>Hi my Puttuu Babyyy.</h2><p class="sub">I made you go through four whole missions just to tell you something simple.</p><p class="sub"><b>I am so proud of you.</b> Proud of you for being you, for building yourself, and for becoming the person you want to be.</p><p class="sub">I love your passion, your eyes, your smile, your kisses, and the way you love me. And yes... you are soooo much more romantic than me. 😂❤️</p><p class="sub">Thank you for being my Bettuu since <b>21 February 2023</b>.</p><p style="font-size:1.35rem"><b>I love youuuuu. ❤️</b></p><button id="kiss" class="btn">COLLECT YOUR KISS 💋</button></div>';
+    document.getElementById("kiss").addEventListener("click",function(){spark();setTimeout(function(){alert("Now come give your Baccha her kiss. 💋");},250);});
+  }
+  document.getElementById("startBtn").addEventListener("click",start);
+})();
 </script>
 </body>
 </html>
